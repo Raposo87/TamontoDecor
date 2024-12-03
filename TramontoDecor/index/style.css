@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-color: #3b3b41 ;
+    --text-color: #343440;
+    --bg-color: #ebeaea;
+    --header-color: #6c6c75, #53535a, #404044;
+    --color-01: #53535a;
+    --main-text: "Afacad Flux", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+/*-------Cabeçalho-------*/
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
+    border-radius: 100px;
+    box-shadow: 10px 10px 5px #9a9aa156;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 25px;
+}
+
+span{
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 200;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.Logo-Decor{
+    flex: 0 0 200px;
+    margin-left: 26px;
+    cursor: default;
+    margin-top: 25px;
+    .imagem{
+        width: 70px;
+        margin-left: 54px;
+    }
+    .titulo{
+        margin-top: -15px;
+    }
+    .icone{
+    font-size: 30px;
+    }
+}
+.imgNatal{
+    position: relative;
+    flex: 0 0 20px;
+    right: 118px;
+    bottom: 28px;
+    width: 70px;
+}
+.social-midia {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20%;
+    flex: 0 0 180px;
+    
+}
+.social-midia > a{
+    position: relative;
+    color: #00000097;
+    margin: 9px;
+    width: 10px;
+    padding: 20px;
+    font-size: 45px;
+    display: flex;
+    right: 34px;
+}
+.social-midia > a:hover{
+    color: white;
+    transition: 1.5s;
+}
+
+/*-------/Cabeçalho-------*/
+
+/*-------Home-------*/
+.home-content h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem 5rem 2rem;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    margin-top: -307px;
+    width: 100%;
+}
+
+.home-content{
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(190deg, transparent 40%,var(--color-01))1;
+    font-size: 35px;
+}
+
+.home-content p{
+    text-indent: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*------ /Home------*/
+
+.portifolio h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.portifolio-container{
+    width: 100%;
+    height: 100%;
+    margin-top: -5px;
+    margin-bottom: 40px;
+    
+    display: grid;
+    position: relative;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 2.8rem;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(150deg, transparent 50%,var(--color-01))1;
+    div{
+        height: 400px;
+        width: 300px;
+    }
+}
+.portifolio-box{
+    position: relative;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem var(--main-color);
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.portifolio-box img{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.portifolio-box img:hover{
+    transform: scale(1.1);
+}
+
+.portifolio-box .portifolio-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(49, 49, 49));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    transform: translateY(30rem);
+    transition: 0.8s ease;
+}
+
+.portifolio-box:hover .portifolio-layer{
+    transform: translateY(0);
+}
+
+.portifolio-layer h4{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.portifolio-layer p{
+    color: #ffffff;
+    margin: 8px 3px 3px;
+}
+
+.portifolio-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.portifolio-layer a i{
+    font-size: 30px;
+    color: black;
+}
+
+footer{
+    background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
+    font-size: 15px;
+    
+    
+}
+
+/* ------ Media queries--------*/
+
+/* ------ / Media queries--------*/

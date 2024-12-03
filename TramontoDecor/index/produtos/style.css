@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --main-color: #3b3b41 ;
+    --text-color: #343440;
+    --bg-color: #ebeaea;
+    --header-color: #6c6c75, #53535a, #404044;
+    --color-01: #53535a;
+    --main-text: "Afacad Flux", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+/*-------Cabeçalho-------*/
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
+    border-radius: 100px;
+    box-shadow: 10px 10px 5px #9a9aa156;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 25px;
+}
+
+span{
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 200;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.Logo-Decor{
+    flex: 0 0 200px;
+    margin-left: 26px;
+    cursor: default;
+    margin-top: 25px;
+    .imagem{
+        width: 70px;
+        margin-left: 54px;
+    }
+    .titulo{
+        margin-top: -15px;
+    }
+    .icone{
+    font-size: 30px;
+    }
+}
+.imgNatal{
+    position: relative;
+    flex: 0 0 20px;
+    right: 118px;
+    bottom: 28px;
+    width: 70px;
+}
+.social-midia {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20%;
+    flex: 0 0 180px;
+    
+}
+.social-midia > a{
+    position: relative;
+    color: #00000097;
+    margin: 9px;
+    width: 10px;
+    padding: 20px;
+    font-size: 45px;
+    display: flex;
+    right: 34px;
+}
+.social-midia > a:hover{
+    color: white;
+    transition: 1.5s;
+}
