@@ -27,7 +27,7 @@
 }
 .slide-box img{
     width: 100%;
-    height: 85%;
+    height: 100%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.56);
 }
 
@@ -39,11 +39,11 @@
     justify-content: center;
 }
 .nav-manual .manual-btn, .nav-auto div{
-    border: 0.3px solid wheat;
+    border: 2px solid rgb(52, 52, 52);
     padding: 3px;
     border-radius: 10%;
     cursor: pointer;
-    margin-top: 100px;
+    margin-top: 168px;
     width: 50px;
 }
 .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
