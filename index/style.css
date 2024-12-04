@@ -108,7 +108,7 @@ body{
 }
 section{
     min-height: 100vh;
-    padding: 1rem 5rem 2rem;
+    padding: 1rem 2rem 2rem;
 }
 
 .home{
@@ -117,7 +117,7 @@ section{
     justify-content: space-evenly;
     padding: 10px;
     align-items: center;
-    margin-top: -307px;
+    margin-top: -348px;
     width: 100%;
 }
 
@@ -125,40 +125,47 @@ section{
     border-left: solid 5px;
     border-bottom: solid 5px;
     border-image: linear-gradient(190deg, transparent 40%,var(--color-01))1;
-    font-size: 35px;
+    font-size: 19px;
+}
+div p strong{
+    font-size: 30px;
 }
 
 .home-content p{
     text-indent: 40px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /*------ /Home------*/
 
 .portifolio h2{
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 50px;
+    margin-bottom: 32px;
+    margin-top: -134px;
+    font-size: 30px;
+    
 }
 
 .portifolio-container{
-    width: 100%;
+    width: 103%;
     height: 100%;
     margin-top: -5px;
     margin-bottom: 40px;
     
-    display: grid;
-    position: relative;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, 300px);
-    gap: 2.8rem;
+    
+    gap: 1.8rem;
     border-right: solid 5px;
     border-bottom: solid 5px;
     border-image: linear-gradient(150deg, transparent 50%,var(--color-01))1;
     div{
-        height: 400px;
-        width: 300px;
+        height: 370px;
+        width: 400px;
+        position: relative;
+    justify-content: center;
     }
 }
 .portifolio-box{
@@ -201,8 +208,10 @@ section{
 }
 
 .portifolio-layer h4{
+    background-color: #b0b0b5a7;
+    border-radius: 5px;
     font-size: 30px;
-    color: #ffffff;
+    color: rgb(38, 38, 38);
 }
 
 .portifolio-layer p{

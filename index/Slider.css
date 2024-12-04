@@ -12,6 +12,7 @@
     width: 400%;
     height: auto;
     display: flex;
+    margin-top: 3px;
 }
 
 .slider-content input{
