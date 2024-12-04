@@ -1,5 +1,7 @@
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+@media screen and (min-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --main-color: #3b3b41 ;
@@ -53,7 +55,7 @@ body{
 
 .Logo-Decor{
     flex: 0 0 200px;
-    margin-left: 20px;
+    margin-left: 70px;
     cursor: default;
     margin-top: 17px;
     .imagem{
@@ -71,7 +73,7 @@ body{
 .imgNatal{
     position: relative;
     flex: 0 0 20px;
-    right: 148px;
+    right: 425px;
     bottom: 28px;
     width: 70px;
 }
@@ -153,11 +155,10 @@ div p strong{
     height: 100%;
     margin-top: -5px;
     margin-bottom: 40px;
-    
     display: flex;
-    flex-direction: column;
     justify-content: center;
     
+
     gap: 1.8rem;
     border-right: solid 5px;
     border-bottom: solid 5px;
@@ -166,7 +167,6 @@ div p strong{
         height: 370px;
         width: 400px;
         position: relative;
-    justify-content: center;
     }
 }
 .portifolio-box{
@@ -195,7 +195,7 @@ div p strong{
     height: 100%;
     background: linear-gradient(transparent, rgb(49, 49, 49));
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -240,4 +240,5 @@ footer{
     font-size: 15px;
     
     
+}
 }
