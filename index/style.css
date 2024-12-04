@@ -149,7 +149,7 @@ div p strong{
 }
 
 .portifolio-container{
-    width: 103%;
+    
     height: 100%;
     margin-top: -5px;
     margin-bottom: 40px;
@@ -164,9 +164,9 @@ div p strong{
     border-image: linear-gradient(150deg, transparent 50%,var(--color-01))1;
     div{
         height: 370px;
-        width: 400px;
+        width: 378px;
         position: relative;
-    justify-content: center;
+        justify-content: center;
     }
 }
 .portifolio-box{
