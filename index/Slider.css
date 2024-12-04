@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 .slider{
-    margin: 0 auto;
-    width: 100%;
+    margin-bottom: -90px;
+    width: 108%;
     height: auto;
     padding: 0 !important;
     overflow: hidden;
