@@ -54,13 +54,14 @@ body{
     flex: 0 0 200px;
     margin-left: 26px;
     cursor: default;
-    margin-top: 25px;
+    margin-top: 17px;
     .imagem{
         width: 70px;
-        margin-left: 54px;
+        margin-left: 25px;
     }
     .titulo{
         margin-top: -15px;
+        font-size: 23px;
     }
     .icone{
     font-size: 30px;
@@ -69,20 +70,19 @@ body{
 .imgNatal{
     position: relative;
     flex: 0 0 20px;
-    right: 118px;
+    right: 148px;
     bottom: 28px;
     width: 70px;
 }
 .social-midia {
     position: relative;
-    right: 10px;
+    right: 53px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     margin-right: 20%;
     flex: 0 0 180px;
-    
 }
 .social-midia > a{
     position: relative;
@@ -90,9 +90,9 @@ body{
     margin: 9px;
     width: 10px;
     padding: 20px;
-    font-size: 45px;
+    font-size: 33px;
     display: flex;
-    right: 34px;
+    right: 32px;
 }
 .social-midia > a:hover{
     color: white;
@@ -124,7 +124,7 @@ section{
 .home-content{
     border-left: solid 5px;
     border-bottom: solid 5px;
-    border-image: linear-gradient(190deg, transparent 40%,var(--color-01))1;
+    border-image: linear-gradient(203deg, transparent 51%,var(--color-01))1;
     font-size: 19px;
 }
 div p strong{
