@@ -31,6 +31,7 @@ header{
     border-radius: 100px;
     box-shadow: 10px 10px 5px #9a9aa156;
     font-size: 25px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +110,7 @@ body{
 }
 section{
     min-height: 100vh;
-    padding: 1rem 2rem 2rem;
+    padding: 1rem 1rem 2rem;
 }
 
 .home{
