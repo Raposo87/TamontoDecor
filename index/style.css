@@ -13,7 +13,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
@@ -24,6 +23,8 @@
 html{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    min-height: 100vh;
+    height: 100%;
 }
 
 
@@ -50,6 +51,7 @@ span{
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
+    min-height: 100vh;
 }
 
 .Logo-Decor{
@@ -108,8 +110,8 @@ body{
     margin-bottom: 15px;
 }
 section{
-    min-height: 90vh;
-    padding: 1rem 1rem 2rem;
+    min-height: 100vh;
+    height: 100%;
 }
 
 .home{
@@ -118,7 +120,7 @@ section{
     justify-content: space-evenly;
     padding: 10px;
     align-items: center;
-    margin-top: -694px;
+    margin-top: -216%;
     width: 100%;
 }
 
@@ -141,8 +143,8 @@ div p strong{
 /*------ /Home------*/
 
 .portifolio h2{
-    margin-bottom: 32px;
-    margin-top: -221px;
+    margin-bottom: 44px;
+    margin-top: -71%;
     font-size: 30px;
 }
 
@@ -235,4 +237,5 @@ div p strong{
 footer{
     background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
     font-size: 15px;
+    margin-top: 10px;
 }
