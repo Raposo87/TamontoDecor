@@ -71,20 +71,19 @@ body{
 }
 .imgNatal{
     position: relative;
-    right: -53px;
+    right: -14%;
     bottom: 105px;
     width: 64px;
 }
 .social-midia {
     position: relative;
-    left: 206px;
+    right: -55%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     margin-right: 51%;
     bottom: 173px;
-    /*flex: 0 0 180px;*/
 }
 .social-midia > a{
     position: relative;
@@ -109,7 +108,7 @@ body{
     margin-bottom: 15px;
 }
 section{
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 1rem 1rem 2rem;
 }
 
@@ -126,7 +125,7 @@ section{
 .home-content{
     border-left: solid 5px;
     border-bottom: solid 5px;
-    border-image: linear-gradient(203deg, transparent 51%,var(--color-01))1;
+    border-image: linear-gradient(210deg, transparent 51%,var(--color-01))1;
     font-size: 19px;
 }
 div p strong{
