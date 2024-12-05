@@ -58,8 +58,9 @@ body{
     cursor: default;
     margin-top: 17px;
     .imagem{
-        width: 70px;
+        width: 63px;
         margin-left: 25px;
+        margin-top: 5px;
     }
     .titulo{
         margin-top: -15px;
