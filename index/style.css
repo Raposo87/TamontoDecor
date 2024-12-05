@@ -120,7 +120,7 @@ section{
     justify-content: space-evenly;
     padding: 10px;
     align-items: center;
-    margin-top: -216%;
+    margin-top: -200%;
     width: 100%;
 }
 
@@ -144,14 +144,15 @@ div p strong{
 
 .portifolio h2{
     margin-bottom: 44px;
-    margin-top: -71%;
+    margin-top: -56%;
     font-size: 30px;
 }
 
 .portifolio-container{
     
     height: 100%;
-    margin-top: -5px;
+    margin-top: -45px;
+    padding: 16px;
     
     display: flex;
     flex-direction: column;
@@ -238,4 +239,9 @@ footer{
     background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
     font-size: 15px;
     margin-top: 10px;
+}
+
+@media screen and (min-width:400px){
+
+    
 }
