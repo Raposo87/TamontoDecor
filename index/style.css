@@ -26,16 +26,16 @@ html{
     font-size: 20px;
 }
 
+
 header{
     background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
     border-radius: 100px;
     box-shadow: 10px 10px 5px #9a9aa156;
     font-size: 25px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 108%;
+    width: 100%;
+    height: 99px;
+    margin-top: -17px;
 }
 
 header h1{
@@ -78,13 +78,14 @@ body{
 }
 .social-midia {
     position: relative;
-    right: 23px;
+    left: 236px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20%;
-    flex: 0 0 180px;
+    margin-right: 57%;
+    bottom: 164px;
+    /*flex: 0 0 180px;*/
 }
 .social-midia > a{
     position: relative;
@@ -120,7 +121,7 @@ section{
     padding: 10px;
     align-items: center;
     margin-top: -380px;
-    width: 108%;
+    width: 100%;
 }
 
 .home-content{
@@ -152,7 +153,6 @@ div p strong{
     height: 100%;
     margin-top: -5px;
     margin-bottom: 40px;
-    width: 108%;
     
     display: flex;
     flex-direction: column;
@@ -164,10 +164,9 @@ div p strong{
     border-image: linear-gradient(150deg, transparent 50%,var(--color-01))1;
     div{
         height: 370px;
-        width: 378px;
-        position: relative;
-        left: 12px;
-        justify-content: center;
+        /*position: relative;
+        justify-content: center;*/
+        
     }
 }
 .portifolio-box{
