@@ -53,18 +53,17 @@ body{
 }
 
 .Logo-Decor{
-    flex: 0 0 200px;
     margin-left: 20px;
     cursor: default;
     margin-top: 17px;
     .imagem{
-        width: 63px;
-        margin-left: 25px;
-        margin-top: 5px;
+        width: 54px;
+        margin-left: 19px;
+        margin-top: 14px;
     }
     .titulo{
         margin-top: -15px;
-        font-size: 23px;
+        font-size: 20px;
     }
     .icone{
     font-size: 30px;
@@ -72,31 +71,30 @@ body{
 }
 .imgNatal{
     position: relative;
-    flex: 0 0 20px;
-    right: 148px;
-    bottom: 28px;
-    width: 70px;
+    right: -50px;
+    bottom: 105px;
+    width: 72px;
 }
 .social-midia {
     position: relative;
-    left: 236px;
+    left: 164px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    margin-right: 57%;
-    bottom: 164px;
+    margin-right: 45%;
+    bottom: 173px;
     /*flex: 0 0 180px;*/
 }
 .social-midia > a{
     position: relative;
     color: #00000097;
     margin: 9px;
-    width: 10px;
+    width: 16px;
     padding: 20px;
     font-size: 33px;
     display: flex;
-    right: 32px;
+    right: 37px;
 }
 .social-midia > a:hover{
     color: white;
