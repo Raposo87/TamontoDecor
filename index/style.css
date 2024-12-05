@@ -148,6 +148,7 @@ div p strong{
     margin-bottom: 44px;
     margin-top: -56%;
     font-size: 30px;
+    margin-left: 20px;
 }
 
 .portifolio-container{
@@ -243,7 +244,67 @@ footer{
     margin-top: 10px;
 }
 
-@media screen and (min-width:400px){
 
-    
+@media screen and (min-width: 374px) and (max-width: 400px){
+    .home {
+        display: flex;
+    ;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+        margin-top: -162%;
+        width: 100%;
+    }
+    .portifolio-container {
+        height: 100%;
+        margin-top: -26px;
+        padding: 16px;
+        display: flex;
+    ;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.8rem;
+        border-right: solid 5px;
+        border-bottom: solid 5px;
+        border-image: linear-gradient(150deg, transparent 50%, var(--color-01)) 1;
+    }
+    .portifolio h2 {
+        margin-bottom: 44px;
+        margin-top: -46%;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 390px)and (max-width: 430px){
+    .home {
+        display: flex;
+    ;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+        margin-top: -220%;
+        width: 100%;
+    }
+    .portifolio-container {
+        height: 100%;
+        margin-top: -26px;
+        padding: 16px;
+        display: flex;
+    ;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.8rem;
+        border-right: solid 5px;
+        border-bottom: solid 5px;
+        border-image: linear-gradient(150deg, transparent 50%, var(--color-01)) 1;
+    }
+    .portifolio h2 {
+        margin-bottom: 44px;
+        margin-top: -66%;
+        font-size: 30px;
+        margin-left: 20px;
+    }
 }
