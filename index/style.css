@@ -71,18 +71,18 @@ body{
 }
 .imgNatal{
     position: relative;
-    right: -50px;
+    right: -53px;
     bottom: 105px;
-    width: 72px;
+    width: 64px;
 }
 .social-midia {
     position: relative;
-    left: 164px;
+    left: 206px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    margin-right: 45%;
+    margin-right: 51%;
     bottom: 173px;
     /*flex: 0 0 180px;*/
 }
@@ -119,7 +119,7 @@ section{
     justify-content: space-evenly;
     padding: 10px;
     align-items: center;
-    margin-top: -380px;
+    margin-top: -694px;
     width: 100%;
 }
 
@@ -134,8 +134,8 @@ div p strong{
 }
 
 .home-content p{
-    text-indent: 40px;
-    margin-left: 20px;
+    text-indent: 10px;
+    margin-left: 7px;
     margin-bottom: 10px;
 }
 
@@ -143,7 +143,7 @@ div p strong{
 
 .portifolio h2{
     margin-bottom: 32px;
-    margin-top: -134px;
+    margin-top: -221px;
     font-size: 30px;
 }
 
@@ -151,7 +151,6 @@ div p strong{
     
     height: 100%;
     margin-top: -5px;
-    margin-bottom: 40px;
     
     display: flex;
     flex-direction: column;

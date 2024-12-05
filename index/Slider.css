@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 .slider{
-    margin-bottom: -90px;
     width: 100%;
-    height: auto;
     padding: 0 !important;
     overflow: hidden;
 }
@@ -35,20 +33,20 @@
 .nav-manual, .nav-auto{
     position: absolute;
     width: 100%;
-    margin-top: 28%;
+    margin-top: 17%;
     display: flex;
     justify-content: center;
 }
 .nav-manual .manual-btn, .nav-auto div{
     border: 2px solid rgb(52, 52, 52);
     padding: 3px;
-    border-radius: 10%;
+    border-radius: 26%;
     cursor: pointer;
     margin-top: 168px;
     width: 50px;
 }
 .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
-    margin-right: 10px;
+    margin-right: 8px;
 }
 .nav-manual .manual-btn:hover{
     background-color: white;
