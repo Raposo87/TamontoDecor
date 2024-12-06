@@ -14,7 +14,6 @@
 
 
 * {
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,8 +66,8 @@ body{
         margin-top: 14px;
     }
     .titulo{
-        margin-top: -15px;
-        font-size: 20px;
+        margin-top: -21px;
+        font-size: 17px;
     }
     .icone{
     font-size: 30px;
@@ -76,12 +75,12 @@ body{
 }
 .social-midia {
     position: relative;
-    left: 60%;
+    left: 51%;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     margin-right: 51%;
-    bottom: 100px;
+    bottom: 88px;
 }
 .social-midia > a{
     position: relative;
