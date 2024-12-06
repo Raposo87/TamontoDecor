@@ -111,17 +111,6 @@ body{
     margin-bottom: 15px;
 }
 
-/*
-.home{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 10px;
-    align-items: center;
-    margin-top: -200%;
-    width: 100%;
-}
-*/
 .home-content{
     border-left: solid 5px;
     border-bottom: solid 5px;
@@ -148,7 +137,7 @@ div p strong{
     margin-left: 20px;
 }
 .portifolio p{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .portifolio-container{
@@ -238,27 +227,5 @@ footer{
     background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
     font-size: 15px;
     margin-top: 10px;
-}
-
-@media screen and (max-width: 480px) and (max-height: 600px){
-  
-    .portifolio-container {
-        height: 100%;
-        margin-top: -26px;
-        padding: 16px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1.8rem;
-        border-right: solid 5px;
-        border-bottom: solid 5px;
-        border-image: linear-gradient(150deg, transparent 50%, var(--color-01)) 1;
-    }
-    .portifolio h2 {
-        margin-bottom: 44px;
-        margin-top: -66%;
-        font-size: 30px;
-        margin-left: 20px;
-    }
 }
 
