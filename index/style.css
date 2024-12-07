@@ -188,7 +188,7 @@ div p strong{
 }
 
 .portifolio-box:hover .portifolio-layer{
-    transform: translateY(1);
+    transform: translateY(0);
 }
 
 .portifolio-layer h4{
@@ -216,6 +216,10 @@ div p strong{
 .portifolio-layer a i{
     font-size: 30px;
     color: black;
+}
+
+.mapbox{
+
 }
 
 footer{
