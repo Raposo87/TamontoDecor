@@ -108,6 +108,9 @@
     font-size: 39px;
 }
 
+.portifolio-container{
+    display: grid;grid-template-columns: repeat(2, 1fr);
+}
 
 
 }
