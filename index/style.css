@@ -188,7 +188,7 @@ div p strong{
 }
 
 .portifolio-box:hover .portifolio-layer{
-    transform: translateY(0);
+    transform: translateY(1);
 }
 
 .portifolio-layer h4{
