@@ -108,6 +108,7 @@ body{
 .home-content{
     border-left: solid 5px;
     border-bottom: solid 5px;
+    margin-left: 5px;
     border-image: linear-gradient(210deg, transparent 51%,var(--color-01))1;
     font-size: 19px;
 }
@@ -147,7 +148,7 @@ div p strong{
     gap: 1.8rem;
     border-right: solid 5px;
     border-bottom: solid 5px;
-    border-image: linear-gradient(150deg, transparent 15%,var(--color-01))1;
+    border-image: linear-gradient(138deg, transparent 15%,var(--color-01))1;
     div{
         height: 330px;
     }
@@ -236,6 +237,7 @@ div p strong{
 footer{
     background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
     font-size: 15px;
+    border-radius: 100px;
     margin-top: 10px;
 }
 
