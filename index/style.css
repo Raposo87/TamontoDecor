@@ -147,7 +147,7 @@ div p strong{
     gap: 1.8rem;
     border-right: solid 5px;
     border-bottom: solid 5px;
-    border-image: linear-gradient(150deg, transparent 50%,var(--color-01))1;
+    border-image: linear-gradient(150deg, transparent 15%,var(--color-01))1;
     div{
         height: 330px;
     }
