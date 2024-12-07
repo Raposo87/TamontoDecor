@@ -27,13 +27,14 @@
 .slide-box img{
     width: 100%;
     height: 100%;
+    margin-bottom: 49%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.56);
 }
 
 .nav-manual, .nav-auto{
     position: absolute;
     width: 100%;
-    margin-top: 70%;
+    margin-top: 60%;
     display: flex;
     justify-content: center;
 }
