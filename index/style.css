@@ -143,7 +143,7 @@ div p strong{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    margin-bottom: 60px;
     gap: 1.8rem;
     border-right: solid 5px;
     border-bottom: solid 5px;
@@ -223,12 +223,11 @@ div p strong{
     height: 400px;
     background: #6c6c75;
     padding: 5px;
-    top: 40px;
+    top: 6px;
     margin-bottom: 80px;
     margin-right: 12px;
     margin-left: 12px;
 }
-
 .mapBox iframe{
     width: 100%;
     height: 100%;
