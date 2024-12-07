@@ -82,6 +82,10 @@ body{
     margin-right: 51%;
     bottom: 88px;
 }
+.bx{
+    border-radius: 30%;
+    box-shadow: 3px 3px 8px;
+}
 .social-midia > a{
     position: relative;
     color: #00000097;
@@ -241,6 +245,6 @@ footer{
     margin-top: 10px;
 }
 
-@media screen and() {
+@media screen and(min-width: 451px) and(min-width: px){
     
 }
