@@ -111,6 +111,15 @@
 .portifolio-container{
     display: grid;grid-template-columns: repeat(2, 1fr);
 }
-
-
+.portifolio-layer p {
+    font-size: 22px;
+}
+.portifolio-layer a {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 46%;
+}
+.portifolio-layer h4 {
+    font-size: 25px;
+}
 }
