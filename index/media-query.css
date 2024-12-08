@@ -163,7 +163,7 @@ div p strong {
 
 }
 
-@media screen and (min-width: 840px) and  (max-width: 1064px){
+@media screen and (min-width: 840px) and  (max-width: 1400px){
     .portifolio-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -172,7 +172,7 @@ div p strong {
         margin-bottom: 0%;
     }
     .nav-manual, .nav-auto {
-        margin-top: 40%;
+        margin-top: 41%;
     }
     .portifolio-container {
         padding: 59px;
