@@ -198,18 +198,6 @@ div p strong {
     }
     
     }
-    .social-midia {
-        left: 71%;
-        margin-right: 41%;
-        margin-top: -3px;
-        display: flex;
-        gap: 12px;
-        width: 200px;
-    
-    }
-    .social-midia a{
-        font-size: 3px;
-}
 .mapBox {
     position: relative;
     height: 400px;
@@ -220,6 +208,4 @@ div p strong {
     margin-bottom: 80px;
     margin-right: 12px;
     margin-left: 12px;
-}
-
 }
