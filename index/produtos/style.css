@@ -167,58 +167,6 @@ div p strong{
     transition: 0.5s ease;
 }
 
-.portifolio-box img:hover{
-    transform: scale(1.1);
-}
-
-.portifolio-box .portifolio-layer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent, rgb(49, 49, 49));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 1rem;
-    transform: translateY(30rem);
-    transition: 0.8s ease;
-}
-
-.portifolio-box:hover .portifolio-layer{
-    transform: translateY(0);
-}
-
-.portifolio-layer h4{
-    background-color: #b0b0b5a7;
-    border-radius: 5px;
-    font-size: 30px;
-    color: rgb(38, 38, 38);
-}
-
-.portifolio-layer p{
-    color: #ffffff;
-    margin: 8px 3px 3px;
-}
-
-.portifolio-layer a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
-    background: white;
-    border-radius: 50%;
-}
-
-.portifolio-layer a i{
-    font-size: 30px;
-    color: black;
-}
-
 .mapBox{
     position: relative;
     height: 400px;
