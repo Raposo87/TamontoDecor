@@ -86,15 +86,6 @@ body{
     border-radius: 30%;
     box-shadow: 3px 3px 8px;
 }
-.bxl-instagram{
-    box-shadow: 3px 3px 4px rgba(255, 18, 18, 0.226);
-}
-.bxl-facebook{
-    box-shadow: 3px 3px 4px rgba(41, 125, 252, 0.39);
-}
-.bxl-whatsapp{
-    box-shadow: 3px 3px 4px rgba(0, 128, 0, 0.329);
-}
 .social-midia > a{
     position: relative;
     color: #00000097;
