@@ -110,6 +110,10 @@ nav > a{
     background: #00000059;
     box-shadow: 3px 3px  rgba(0, 0, 0, 0.082);
 }
+nav > a:hover{
+    color: white;
+    transition: 1.5s;
+}
 
 
 /*-------/Cabeçalho-------*/
