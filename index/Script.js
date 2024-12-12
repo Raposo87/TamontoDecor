@@ -50,3 +50,6 @@ function handleScrollOrTouch() {
 // Adicionando evento de scroll para dispositivos desktop e touch
 window.addEventListener('scroll', handleScrollOrTouch);
 window.addEventListener('touchmove', handleScrollOrTouch);
+
+
+ //   //   //   //      //   //   //   //   //   //   //   //

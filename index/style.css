@@ -96,10 +96,6 @@ body{
     display: flex;
     right: 37px;
 }
-.social-midia > a:hover{
-    color: white;
-    transition: 1.5s;
-}
 
 /*-------/Cabeçalho-------*/
 
