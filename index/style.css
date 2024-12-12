@@ -189,15 +189,13 @@ div p strong{
     padding: 0 1rem;
     transform: translateY(30rem);
     transition: 0.8s ease;
+    visibility: hidden;
 }
 
 .portifolio-box:hover .portifolio-layer{
     transform: translateY(0);
 }
 
-.portifolio-box .portifolio-layer{
-    visibility: hidden;
-}
 .portifolio-layer h4{
     background-color: #b0b0b5a7;
     border-radius: 5px;
