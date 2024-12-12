@@ -195,6 +195,9 @@ div p strong{
     transform: translateY(0);
 }
 
+.portifolio-box .portifolio-layer{
+    visibility: hidden;
+}
 .portifolio-layer h4{
     background-color: #b0b0b5a7;
     border-radius: 5px;

@@ -15,3 +15,7 @@ function proximaImg(){
     }
     document.getElementById('radio' + cont).checked = true
 }
+
+window.sr = ScrollReveal({reset: true});
+
+sr.reveal('.portifolio-box, .portifolio-layer', {duration: 1800});
