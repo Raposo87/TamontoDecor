@@ -99,9 +99,8 @@ body{
 }
 
 nav{
-    position: relative;
+    justify-content: center;
     margin-top: 18px;
-    /* text-align: center; */
     left: 1px;
     display: flex
 ;
