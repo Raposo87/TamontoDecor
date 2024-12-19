@@ -32,7 +32,7 @@ html{
 
 header{
     background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
-    border-radius: 100px;
+    /*border-radius: 100px;*/
     box-shadow: 10px 10px 5px #9a9aa156;
     font-size: 25px;
 
@@ -104,7 +104,9 @@ body{
     text-align: center;
     margin-bottom: 15px;
 }
-
+strong, h2{
+    margin-left: 20px;
+}
 .home-content{
     border-left: solid 5px;
     border-bottom: solid 5px;
@@ -144,18 +146,18 @@ div p strong{
     flex-direction: column;
     justify-content: center;
     margin-bottom: 60px;
-    gap: 1.8rem;
+    gap: 3.8rem;
     border-right: solid 5px;
     border-bottom: solid 5px;
     border-image: linear-gradient(138deg, transparent 15%,var(--color-01))1;
     div{
-        height: 330px;
+        height: 400px;
     }
 }
 .portifolio-box{
     position: relative;
-    border-radius: 0.6rem;
-    box-shadow: 0 0 0.6rem var(--main-color);
+    /*border-radius: 0.6rem;
+    box-shadow: 0 0 0.6rem var(--main-color);*/
     overflow: hidden;
     display: flex;
     margin-bottom: 10px;
