@@ -31,7 +31,7 @@ html{
 
 
 header{
-    background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
+    background: linear-gradient(-50deg,#fdfdfd,#9c9c9c, #cfcfcf, #b0b0b5, #d6d6d6);
     /*border-radius: 100px;*/
     box-shadow: 10px 10px 5px #9a9aa156;
     font-size: 25px;

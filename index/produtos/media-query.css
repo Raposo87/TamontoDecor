@@ -159,16 +159,15 @@ div p strong {
         left: 78%;
     }
     nav{
-        position: relative;
-        bottom: 71px;
+        margin-bottom: 76px;
         text-align: center;
-        margin-right: 27%;
-        margin-left: 27%;
+        margin-top: -58px;
+        gap: 20px;
     }
     nav > a{
-        color: #161616c5;
-        border-radius: 10px;
-        box-shadow: 3px 3px  rgba(0, 0, 0, 0.322);
+        color: #161616c2;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.082);
     }
     nav > a:hover{
         color: white;
@@ -195,6 +194,15 @@ div p strong {
         margin-top: 30px;
         font-size: 41px;
         margin-left: 20px;
+    }
+
+    .paragrafoProdutos{
+        top: 5px;
+        height: 20%;
+        border-left: solid 3px;
+        border-bottom: solid 3px;
+        border-image: linear-gradient(189deg, transparent 51%,var(--color-01))1;
+        font-size: 30px;
     }
   
     
