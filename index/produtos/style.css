@@ -101,7 +101,11 @@ body{
 nav{
     position: relative;
     margin-top: 18px;
-    text-align: center;
+    /* text-align: center; */
+    left: 1px;
+    display: flex
+;
+    gap: 3px;
 }
 
 nav > a{
