@@ -64,6 +64,7 @@
     background-color: white;
 }
 
+
 #radio1:checked ~ .primeiro{
     margin-left: 0%;
 }
