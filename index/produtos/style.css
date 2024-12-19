@@ -185,19 +185,13 @@ div p strong{
     transition: 0.5s ease;
 }
 
-.mapBox{
+.paragrafoProdutos{
     position: relative;
-    height: 400px;
-    background: #6c6c75;
-    padding: 5px;
-    top: 6px;
-    margin-bottom: 80px;
-    margin-right: 12px;
-    margin-left: 12px;
-}
-.mapBox iframe{
-    width: 100%;
-    height: 100%;
+    top: -70px;
+    border-left: solid 3px;
+    border-bottom: solid 3px;
+    border-image: linear-gradient(189deg, transparent 51%,var(--color-01))1;
+    font-size: 19px;
 }
 
 footer{
