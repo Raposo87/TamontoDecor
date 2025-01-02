@@ -4,11 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --main-color: #3b3b41 ;
-    --text-color: #343440;
+    --main-color: #F26363 ;
+    --text-color: black;
     --bg-color: #ebeaea;
-    --header-color: #6c6c75, #53535a, #404044;
-    --color-01: #53535a;
+    --color-01: #F26363;
     --main-text: "Afacad Flux", sans-serif;
 }
 
@@ -28,11 +27,7 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-
-
 header{
-    background: linear-gradient(-50deg,#fdfdfd,#9c9c9c, #cfcfcf, #b0b0b5, #d6d6d6);
-    /*border-radius: 100px;*/
     box-shadow: 10px 10px 5px #9a9aa156;
     font-size: 25px;
 
@@ -106,6 +101,7 @@ body{
 }
 strong, h2{
     margin-left: 20px;
+    color: #F26363;
 }
 .home-content{
     border-left: solid 5px;
@@ -156,8 +152,6 @@ div p strong{
 }
 .portifolio-box{
     position: relative;
-    /*border-radius: 0.6rem;
-    box-shadow: 0 0 0.6rem var(--main-color);*/
     overflow: hidden;
     display: flex;
     margin-bottom: 10px;
@@ -195,7 +189,7 @@ div p strong{
 }
 
 .portifolio-layer h4{
-    background-color: #b0b0b5a7;
+    background-color: black;
     border-radius: 5px;
     font-size: 30px;
     color: rgb(38, 38, 38);
@@ -224,7 +218,7 @@ div p strong{
 .mapBox{
     position: relative;
     height: 400px;
-    background: #6c6c75;
+    background: #F29D52;
     padding: 5px;
     top: 6px;
     margin-bottom: 80px;
@@ -237,7 +231,6 @@ div p strong{
 }
 
 footer{
-    background: linear-gradient(-50deg,#fdfdfd,#6f7076, #616164, #b0b0b5, #d6d6d6);
     font-size: 15px;
     border-radius: 100px;
     margin-top: 10px;
