@@ -101,7 +101,7 @@ body{
 }
 strong, h2{
     margin-left: 20px;
-    color: #F26363;
+    color: black;
 }
 .home-content{
     border-left: solid 5px;
@@ -189,7 +189,7 @@ div p strong{
 }
 
 .portifolio-layer h4{
-    background-color: black;
+    background-color: #F29D52;
     border-radius: 5px;
     font-size: 30px;
     color: rgb(38, 38, 38);
@@ -212,13 +212,13 @@ div p strong{
 
 .portifolio-layer a i{
     font-size: 30px;
-    color: black;
+    color: #F26363;
 }
 
 .mapBox{
     position: relative;
     height: 400px;
-    background: #F29D52;
+    background: #F26363;
     padding: 5px;
     top: 6px;
     margin-bottom: 80px;

@@ -39,7 +39,7 @@
     justify-content: center;
 }
 .nav-manual .manual-btn, .nav-auto div{
-    border: 2px solid rgb(52, 52, 52);
+    border: 2px solid #F26363;
     padding: 3px;
     border-radius: 26%;
     cursor: pointer;
@@ -50,18 +50,18 @@
     margin-right: 8px;
 }
 .nav-manual .manual-btn:hover{
-    background-color: white;
+    background-color: #F26363;
     transition: 0.5s;
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1{
-    background-color: white;
+    background-color: #F26363;
 }
 #radio2:checked ~ .nav-auto .auto-btn2{
-    background-color: white;
+    background-color: #F26363;
 }
 #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: white;
+    background-color: #F26363;
 }
 
 
