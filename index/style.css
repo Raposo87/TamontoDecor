@@ -217,6 +217,12 @@ div p strong{
     color: black;
 }
 
+.depoimento .avaliacao .bx{
+    color: rgb(255, 183, 0);
+    border-radius: none;
+    box-shadow: none;
+}
+
 .mapBox{
     position: relative;
     height: 400px;
