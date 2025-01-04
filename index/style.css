@@ -216,13 +216,44 @@ div p strong{
     font-size: 30px;
     color: black;
 }
+/*Depoimentos*/
+.depoimento-box{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.depoimento .caixa{
+    margin-bottom: 5rem;
+}
+.depoimento-box img{
+    width: 7rem;
+    border-radius: 50%;
+    border: 3px solid #FFB34E;
+}
+.caixa{
+    display: grid;
+    grid-template-columns: repeat(3,1rf);
+    gap: 3rem;
+}
+.testemunha-item{
+    min-height: 400px;
+    max-width: 300px;
+    border: 3px solid #F26363;
+    margin: 0 2rem;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .depoimento .avaliacao .bx{
     color: rgb(255, 183, 0);
     border-radius: none;
     box-shadow: none;
 }
-
+/*Depoimentos*/
 .mapBox{
     position: relative;
     height: 400px;
