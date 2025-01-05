@@ -1,27 +1,27 @@
-var radio = document.querySelector(".manual-btn")
-
-var cont = 1
-
-document.getElementById('radio1').checked = true
-
-setInterval(() => {
-    proximaImg()
-}, 5000)
-
-function proximaImg(){
-    cont++
-    if(cont > 3){
-        cont = 1
-    }
-    document.getElementById('radio' + cont).checked = true
-}
-
-
-// Adicione estas novas variáveis
+// Variáveis para controle do slider
+var radio = document.querySelector(".manual-btn");
+var cont = 1;
 let touchstartX = 0;
 let touchendX = 0;
 
-// Adicione esta nova função
+// Marca o primeiro radio como checked
+document.getElementById('radio1').checked = true;
+
+// Timer para troca automática
+setInterval(() => {
+    proximaImg();
+}, 5000);
+
+// Função para próxima imagem
+function proximaImg() {
+    cont++;
+    if(cont > 3){
+        cont = 1;
+    }
+    document.getElementById('radio' + cont).checked = true;
+}
+
+// Função para imagem anterior
 function imagemAnterior() {
     cont--;
     if(cont < 1){
@@ -30,9 +30,10 @@ function imagemAnterior() {
     document.getElementById('radio' + cont).checked = true;
 }
 
-// Adicione esta parte para detectar os toques
-const slider = document.querySelector('.slider-container'); // Ajuste para sua classe
+// Seleciona o elemento correto do slider
+const slider = document.querySelector('.slider-content');
 
+// Eventos touch
 slider.addEventListener('touchstart', e => {
     touchstartX = e.changedTouches[0].screenX;
 });
@@ -42,20 +43,21 @@ slider.addEventListener('touchend', e => {
     checkDirection();
 });
 
-// Adicione esta função que verifica a direção do swipe
+// Função para verificar a direção do swipe
 function checkDirection() {
     const SWIPE_THRESHOLD = 50;
     const swipeDistance = touchendX - touchstartX;
     
     if (Math.abs(swipeDistance) >= SWIPE_THRESHOLD) {
-        if (touchendX < touchstartX) {
+        if (touchendX < touchstartX) { // Swipe para esquerda
             proximaImg();
         }
-        if (touchendX > touchstartX) {
+        if (touchendX > touchstartX) { // Swipe para direita
             imagemAnterior();
         }
     }
 }
+
 
    //   //   //   //     //   //   //   //      //   //   //   //   
 
