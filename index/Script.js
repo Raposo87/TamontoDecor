@@ -16,30 +16,12 @@ function proximaImg(){
     document.getElementById('radio' + cont).checked = true
 }
 
-// Variáveis para controle do slider
-var radio = document.querySelector(".manual-btn");
-var cont = 1;
+
+// Adicione estas novas variáveis
 let touchstartX = 0;
 let touchendX = 0;
 
-// Marca o primeiro radio como checked
-document.getElementById('radio1').checked = true;
-
-// Timer para troca automática
-setInterval(() => {
-    proximaImg();
-}, 5000);
-
-// Função para próxima imagem
-function proximaImg() {
-    cont++;
-    if(cont > 3){
-        cont = 1;
-    }
-    document.getElementById('radio' + cont).checked = true;
-}
-
-// Função para imagem anterior
+// Adicione esta nova função
 function imagemAnterior() {
     cont--;
     if(cont < 1){
@@ -48,10 +30,9 @@ function imagemAnterior() {
     document.getElementById('radio' + cont).checked = true;
 }
 
-// Elemento que contém o slider
-const slider = document.querySelector('.slider-container'); // Ajuste para a sua classe
+// Adicione esta parte para detectar os toques
+const slider = document.querySelector('.slider-container'); // Ajuste para sua classe
 
-// Eventos touch
 slider.addEventListener('touchstart', e => {
     touchstartX = e.changedTouches[0].screenX;
 });
@@ -61,25 +42,21 @@ slider.addEventListener('touchend', e => {
     checkDirection();
 });
 
-// Função para verificar a direção do swipe
+// Adicione esta função que verifica a direção do swipe
 function checkDirection() {
-    const SWIPE_THRESHOLD = 50; // Limiar mínimo para considerar como swipe
-    
-    // Calcula a distância do movimento
+    const SWIPE_THRESHOLD = 50;
     const swipeDistance = touchendX - touchstartX;
     
-    // Só executa se o movimento for maior que o limiar
     if (Math.abs(swipeDistance) >= SWIPE_THRESHOLD) {
         if (touchendX < touchstartX) {
-            // Swipe para esquerda - próxima imagem
             proximaImg();
         }
         if (touchendX > touchstartX) {
-            // Swipe para direita - imagem anterior
             imagemAnterior();
         }
     }
 }
+
    //   //   //   //     //   //   //   //      //   //   //   //   
 
  
