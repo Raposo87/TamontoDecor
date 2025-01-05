@@ -227,6 +227,9 @@ div p strong{
 .depoimento .caixa{
     margin-bottom: 5rem;
 }
+.depoimento-box h2{
+    padding: 1rem;
+}
 .depoimento-box img{
     width: 7rem;
     border-radius: 50%;
