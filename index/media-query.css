@@ -196,9 +196,17 @@ div p strong {
         font-size: 41px;
         margin-left: 20px;
     }
-    
+    .testemunha-item {
+        min-height: 400px;
+        max-width: 300px;
+        border: 3px solid #F26363;
+        margin: 0 2rem;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-.mapBox {
+    .mapBox {
     position: relative;
     height: 400px;
     width: 300px;
@@ -208,4 +216,5 @@ div p strong {
     margin-bottom: 80px;
     margin-right: 12px;
     margin-left: 12px;
+    }
 }
